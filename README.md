@@ -150,3 +150,6 @@ npm install -D @sveltejs/svelte-virtual-list
 ## Bugs and feedback
 
 Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/59a0e432-6d06-44e7-b64b-78d77a4a2bd3/deploy-status)](https://app.netlify.com/sites/upbeat-hermann-894f9f/deploys)
