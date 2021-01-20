@@ -3,16 +3,16 @@ import sirv from 'sirv';
 import express from 'express';
 import compression from 'compression';
 import * as sapper from '@sapper/server';
-import { json } from 'body-parser'
+import { json } from 'body-parser';
 
 const ex = express();
 
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
 
-const url = dev ? '/' : '<your-app-name>';
+const url = dev ? '/' : 'marikang';
 
-ex.use(express.urlencoded())
+ex.use(express.urlencoded({extended: true}))
 ex.use(express.json())
 
 ex.use(
